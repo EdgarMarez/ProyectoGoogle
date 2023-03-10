@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .Menu-Principal{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .Menu-Principal a{
+    margin-right: 10px;
+    color: black;
+}
+.apps{
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 12px;
+    width: 40px;
+    height: 40px;
+}
+.Foto{
+    border-radius: 50%;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{  
+    margin-top: 10px;
+    text-align: center;
+}
+main .Logo{
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+main .Logo img{
+    width: 370px;
+    height: 200px;
+}
+main .cuadro-busqueda{
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+main .cuadro-busqueda{
+    width: 525px;
+    border-radius: 100px;
+    border: 0px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+    main .cuadro-busqueda input{
+        width: 525px;
+        height: 40px;
+        border-radius: 100px;
+        border: 1px solid whitesmoke;        
+        outline: none; 
+    }
+    main .cuadro-busqueda input:hover{
+        background-color:#92939647 ;
+    }
+   
+    .icon-search {
+        position:relative;
+        font-size: 18px;
+        margin-right: 450px;
+        top: 34px;
+    }
+    .icon-mic{
+        position:relative;
+        font-size: 20px;
+        top: 32px;
+        margin-left: 10px;
+        
+    }
+main .botones-busqueda{
+    width: 530px;
+    margin: 0 auto;
+}
+main .botones-busqueda div{
+    display: inline-block;
+}
+main .botones-busqueda button{
+    height: 38px;
+    background-color: lightgrey;
+    border: 0px;
+    font-size: 14px;
+    color: dimgray;
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: 15px;
+}
+main .botones-busqueda button:hover{
+    background-color: darkgrey;
+    border:1px solid black;
+}
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;    
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    align-items: center;
+    font-size: 15px;
+    background-color: gainsboro;
+    border-top: 1px solid lightgray;
+}
+
+footer .Pie-Pagina1{
+    justify-self: left;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer ul li a{
+    margin: 15px;
+    color: dimgray;
+}
+footer nav{
+    justify-self: right;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+}
+footer nav li a{
+    margin: 15px;
+    color: dimgray;
+}
